@@ -89,7 +89,7 @@ Rails.application.configure do
   end
 
   config.middleware.use ExceptionNotification::Rack, email: {
-    email_prefix: '[isleofruby-activities::Exception] ',
+    email_prefix: '[heartofclojure-activities::Exception] ',
     sender_address: %("Exception Notifier" <#{Settings.errors.from}>),
     exception_recipients: Settings.errors.to
   }

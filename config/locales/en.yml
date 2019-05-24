@@ -27,7 +27,7 @@ en:
 
   user_nav:
     back_home:
-      label: Back to Isle of Ruby activities
+      label: Back to Heart of Clojure activities
       title: Go back to front page
     account:
       label: My Account
@@ -93,7 +93,7 @@ en:
       label_short: End
     location: Location
     required: Required
-    requires_event_ticket: "During the Isle of Ruby participants need a ticket"
+    requires_event_ticket: "During the conference participants need a ticket"
     participants: Participants
     organized_by_html: "Organised by <strong>%{name}</strong>"
     room_left:
