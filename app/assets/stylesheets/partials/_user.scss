@@ -104,7 +104,7 @@ body.user {
     }
 
     li {
-      float: left;
+      margin: auto;
       width: percentage(1 / 2);
 
       &:first-child {
@@ -149,17 +149,22 @@ body.user {
   }
 }
 
+
+$color-1: #e25f7d;
+$color-2: #fff;
+
+
 body.activities.index form.filters label.participant::before, body.activities.index form.filters label.owner::before {
   position: relative;
   top: 0.22em;
 }
 
 body.activities.index #activities li .container, body.activities.index form.filters label.selected {
-  background-color: darken(#8CCEE6, 40%);
+  background-color: $color-1;
 }
 
 .page-header nav.user-nav ul li a, #footer nav ul li a {
-  color: #8CCEE6; 
+  color: $color-1;
 }
 
 body.activities.index form.filters label.search {
@@ -171,28 +176,28 @@ body.activities.index form.filters label.selected {
 }
 
 body.activities.index form.filters label {
-  background: lighten(#8CCEE6, 10%);
+  background: lighten($color-1, 10%);
 }
 
 body.activities.index form.filters label.search input {
-  border: 1px solid #8CCEE6;
+  border: 1px solid $color-1;
 }
 
 body.activities.index #activities li .labels p.time {
-  border-top: 1px solid #fff;
-  color: #fff;
+  border-top: 1px solid $color-2;
+  color: $color-2;
 }
 
 body.activities.index #activities li .labels p.creator {
-  color: #fff;
+  color: $color-2;
 }
 
 article header h2::after, body.activities.index .map h3::after, body.activities.index #activities li .labels h4::after, body.activities.show #activity section.overview .participants h3::after, body.user p.divider::after {
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid $color-2;
 }
 
 #footer::before, body.activities.index #activities li .labels h4::before {
-  border-bottom: 1px solid #8CCEE6;
+  border-bottom: 1px solid $color-1;
 }
 
 body.user h2, body.user .page-header nav.user-nav ul a {
@@ -200,7 +205,7 @@ body.user h2, body.user .page-header nav.user-nav ul a {
 }
 
 body.activities.index #activities li .labels {
-  color: #8CCEE6;
+  color: $color-1;
 }
 
 .page-header .page-header-text img {
@@ -213,7 +218,7 @@ body.activities.index #activities li .labels {
 }
 
 form hr {
-  background-color: #fff;
+  background-color: $color-2;
 }
 
 @media(max-width: 1000px) {

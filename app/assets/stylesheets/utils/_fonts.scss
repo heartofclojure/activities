@@ -1,7 +1,9 @@
 $weights: bold bold, medium normal, normal normal;
 
+@import url('https://fonts.googleapis.com/css?family=Halant:300,300i,400,400i,700,700i|Nunito:300,300i,400,400i,700,700i');
+
 @mixin custom-sans($weight: normal) {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family:  'Nunito', Helvetica, Arial, Sans-Serif;
 
   @if $weight == thin {
     font-weight: 100;
@@ -24,7 +26,7 @@ $weights: bold bold, medium normal, normal normal;
 }
 
 @mixin custom-serif($weight: normal, $style: normal) {
-  font-family: "abril-text", Georgia, serif;
+  font-family: "Halant", Georgia, serif;
 
   @if $weight == bold {
     font-weight: 700;

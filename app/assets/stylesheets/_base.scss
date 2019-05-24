@@ -7,15 +7,10 @@ html {
 }
 
 body {
-  background: image-url('layout/bg.png') #8CCEE6;
-  background-size: 20vh;
-
   @include custom-serif;
 }
 
 a, a:visited {
-  border-bottom: 1px dotted $blue;
-  color: $blue;
   text-decoration: none;
   transition: all 0.25s;
 }
