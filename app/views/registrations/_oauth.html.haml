@@ -14,14 +14,14 @@
           %h4
             = t("user.#{domain}.oauth.github.connect_html")
 
-    %li
-      - if resource.connected_with_twitter?
-        = link_to "https://twitter.com/#{resource.twitter_handle}", class: 'twitter connected' do
-          = image_tag 'user/connected.png'
-          %h4
-            = t("user.#{domain}.oauth.twitter.connected_html")
-      - else
-        = link_to '/auth/twitter', class: 'twitter' do
-          = image_tag 'user/twitter.png'
-          %h4
-            = t("user.#{domain}.oauth.twitter.connect_html")
+    -# %li
+    -#   - if resource.connected_with_twitter?
+    -#     = link_to "https://twitter.com/#{resource.twitter_handle}", class: 'twitter connected' do
+    -#       = image_tag 'user/connected.png'
+    -#       %h4
+    -#         = t("user.#{domain}.oauth.twitter.connected_html")
+    -#   - else
+    -#     = link_to '/auth/twitter', class: 'twitter' do
+    -#       = image_tag 'user/twitter.png'
+    -#       %h4
+    -#         = t("user.#{domain}.oauth.twitter.connect_html")
