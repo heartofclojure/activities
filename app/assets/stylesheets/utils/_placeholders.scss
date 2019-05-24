@@ -67,13 +67,15 @@
 
     a {
       border: 0;
-      color: $medium-gray;
+      color: $black;
       text-transform: uppercase;
 
       @include custom-sans(medium);
+      font-size: 16px;
+      font-weight: 700;
 
       &:hover {
-        color: $blue;
+        color: $red;
       }
     }
   }

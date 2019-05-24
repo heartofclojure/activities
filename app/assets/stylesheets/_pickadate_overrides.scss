@@ -3,7 +3,7 @@
 }
 
 .picker__input.picker__input--active {
-  border: 1px solid $blue !important;
+  border: 1px solid $green !important;
 }
 
 .picker__box {
@@ -13,7 +13,7 @@
 .picker__day--highlighted:hover,
 .picker__day--infocus:hover,
 .picker__day--outfocus:hover {
-  background: $blue !important;
+  background: $green !important;
   color: $white !important;
 }
 
@@ -30,8 +30,8 @@
 
 .picker__day--disabled:hover,
 .picker--focused .picker__day--disabled {
-  background: $white !important;
-  color: $light-gray !important;
+  background: $light-gray !important;
+  color: $white !important;
   font-weight: 100 !important;
 }
 
@@ -46,8 +46,8 @@
 }
 
 .picker__list-item:hover {
-  background: $blue !important;
-  border-color: $blue !important;
+  background: $green !important;
+  border-color: $green !important;
   color: $white !important;
 }
 
@@ -59,4 +59,13 @@
 
 .picker__list {
   padding-bottom: 0 !important;
+}
+
+.picker__button--close {
+  background-color: $washed-pink !important;
+  color: $white !important;
+
+  &:hover {
+    background-color: $red !important;
+  }
 }

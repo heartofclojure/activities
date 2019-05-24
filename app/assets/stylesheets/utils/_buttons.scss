@@ -120,7 +120,7 @@ $ypos: 0;
 // ----------------------------------------------------------------------------
 
 %secondary-button {
-  background: $blue;
+  background: $red;
   border: 0;
   border-radius: 3px;
   box-shadow: 0 2px 3px $light-gray;
@@ -143,7 +143,7 @@ $ypos: 0;
   }
 
   &:hover {
-    background: darken($blue, 10%);
+    background: darken($green, 10%);
   }
 
   &:active {

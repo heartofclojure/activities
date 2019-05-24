@@ -160,10 +160,10 @@ body.activities.index form.filters label.participant::before, body.activities.in
 }
 
 body.activities.index #activities li .container, body.activities.index form.filters label.selected {
-  background-color: $color-1;
+  background-color: lighten($red, 5%);
 }
 
-.page-header nav.user-nav ul li a, #footer nav ul li a {
+.page-header #footer nav ul li a {
   color: $color-1;
 }
 
@@ -176,7 +176,7 @@ body.activities.index form.filters label.selected {
 }
 
 body.activities.index form.filters label {
-  background: lighten($color-1, 10%);
+  background: darken($washed-pink, 5%);
 }
 
 body.activities.index form.filters label.search input {

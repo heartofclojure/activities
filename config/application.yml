@@ -1,8 +1,8 @@
 defaults: &defaults
   event:
     name: "Heart of Clojure Activities"
-    start_time: 2015-07-27 00:00:00
-    end_time: 2015-08-09 23:59:59
+    start_time: 2019-08-01 00:00:00
+    end_time: 2019-08-04 23:59:59
   host: "activities.heartofclojure.eu"
   mailers:
     from: "contact@heartofclojure.eu"

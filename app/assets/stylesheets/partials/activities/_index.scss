@@ -118,7 +118,8 @@ a#new-activity {
 
       // title
       h4 {
-        @include custom-serif(light);
+        @include custom-sans(bold);
+        color: $black;
 
         font-size: 1.225em;
         margin: 0;
@@ -224,6 +225,7 @@ a#new-activity {
       }
 
       a.details {
+        color: $black;
         span {
           opacity: 1;
           transition: all 0.25s ease-in-out;
