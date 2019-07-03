@@ -1,5 +1,5 @@
 class ActivitiesController < ApplicationController
-  respond_to :html
+  respond_to :html, :json
 
   skip_before_action :authenticate_user!, only: %i[index show]
   before_action :load_and_authorize_activity, only: %i[show edit update destroy]
